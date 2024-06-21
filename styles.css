@@ -18,3 +18,32 @@
     }
   }
   
+
+  /* CSS untuk drop-down */
+.dropdown {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown li {
+  margin: 10px 0;
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #202c63;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.dropdown-content.show {
+  display: block;
+}
