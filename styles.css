@@ -47,3 +47,11 @@
 .dropdown-content.show {
   display: block;
 }
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+.icon-text img {
+  margin-right: 8px; /* Adjust the spacing as needed */
+}
